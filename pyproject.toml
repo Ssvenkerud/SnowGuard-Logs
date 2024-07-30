@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "sql-parser"
+version = "0.1.0"
+description = "A Python Package used to parse SQL queries to extract infomation on what query is run where."
+authors = ["Simen Svenkerud"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlparse = "^0.4.4"
+sqlglot = "^20.9.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.12.1"
+pytest = "^7.4.4"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
