@@ -12,7 +12,7 @@ sqlparse = "^0.5.0"
 sqlglot = "^20.9.0"
 
 [tool.poetry.group.dev.dependencies]
-black = "^23.12.1"
+black = "^24.3.0"
 pytest = "^7.4.4"
 isort = "^5.13.2"
 
